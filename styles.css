@@ -1,0 +1,30 @@
+body {
+  margin: 0px;
+  background: rgb(6, 6, 54);  
+}
+
+button {
+  height: 250px;
+  width: 500px;
+  font-size: 50px;
+  background: rgb(40, 40, 177);  
+  border: 3px solid white;
+  color: rgb(163, 163, 163);
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+.center-h {
+  display: flex;
+  justify-content: center;  
+}
+
+.center-v {
+  display: flex;
+  align-items: center;
+  flex-direction: column;  
+}
+
+.h-500 {
+  height: 100vh;
+}
